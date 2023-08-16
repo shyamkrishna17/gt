@@ -1,0 +1,234 @@
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  justify-content: center; 
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #007bff; 
+}
+
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.jumbotron h2 {
+  color: #333;
+}
+
+.jumbotron p {
+  color: #777;
+}
+
+
+section {
+  padding: 30px 0;
+}
+
+section h3 {
+  margin-bottom: 20px;
+}
+
+section p {
+  color: #444;
+}
+
+
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#contact form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact form button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f8e7d2; 
+  padding: 20px;
+}
+
+header {
+  background-color: #38122f; 
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+nav {
+  background-color: #fbf7f7; 
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #502222;
+  padding: 5px 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #b0c027; 
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 30px;
+  color: #4c4e5f; 
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.6;
+  color: #656b6e; 
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #4c4e5f; 
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+
+.btn-block {
+  
+  width: 200px;
+  height: 50px;
+  
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 10px auto; 
+}
+
+/* Additional Styles for the Signup Form with No Errors */
+#signup-form {
+  margin-top: 20px;
+}
+
+#signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#signup-form button[type="submit"] {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#signup-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+ 
+
+
+
+
+
